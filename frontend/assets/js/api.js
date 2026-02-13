@@ -6,7 +6,8 @@ const IS_LOCAL = window.location.hostname === "localhost" || window.location.hos
 
 const API_BASE_URL = IS_LOCAL 
     ? "http://localhost:3000" 
-    : "https://dailyorbit-backend-umlt.onrender.com";
+   : "https://dailyorbit-backend-ymwz.onrender.com";
+
 
 console.log(`🔌 API connecting to: ${API_BASE_URL}`);
 
